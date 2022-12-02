@@ -7,9 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class NopCommerceHeaderPage {
-	
-	public class NopCommerseLandingPage {
+import utility.BaseClass;
+
+public class NopCommerceLandingPage extends BaseClass {
 		
 		@FindBy (xpath = "//select[@id='customerCurrency']")private WebElement SelectCurrency;
 		@FindBy (xpath = "//a[@class='ico-register']")private WebElement Regester;
@@ -77,9 +77,10 @@ public class NopCommerceHeaderPage {
 		@FindBy (xpath="//input[@id='newsletter-email']")private WebElement FooterNewsLetterEmail;
 		@FindBy (xpath="//button[@id='newsletter-subscribe-button']")private WebElement FooterNewsLetterEmailButton;
 		@FindBy (xpath="(//a[@target='_blank'])[4]")private WebElement FooterNopCommerce;
+		@FindBy (xpath="//div[@class='prices']") private WebElement price;
 		
-		WebDriver driver;
-		public NopCommerseLandingPage () {
+		
+		public NopCommerceLandingPage(WebDriver driver) {
 			PageFactory.initElements(driver, this);
 			
 		}
@@ -353,5 +354,10 @@ public class NopCommerceHeaderPage {
 			FooterNopCommerce.click();
 		}
 		
+		public String validateCurrency() {
+			return price.getText();
+			
+		}
+		
 	}
-	}
+	
