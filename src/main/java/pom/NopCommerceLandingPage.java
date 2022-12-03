@@ -123,6 +123,7 @@ public class NopCommerceLandingPage extends BaseClass {
 		Actions act =new Actions(driver);
 		act.moveToElement(ComputersMenu);
 		act.perform();
+		ComputersMenu.click();
 		}
 		
 		public void desktopMenu () {
