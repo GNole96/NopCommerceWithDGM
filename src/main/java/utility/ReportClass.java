@@ -5,9 +5,9 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ReportClass {
 
-	public static ExtentReports addReports() {
+	public static ExtentReports addReports(String name) {
 		
-		ExtentSparkReporter htmlReport = new ExtentSparkReporter("ExtentReport.html");
+		ExtentSparkReporter htmlReport = new ExtentSparkReporter(name+".html");
 		ExtentReports report = new ExtentReports();
 		report.attachReporter(htmlReport);
 		report.setSystemInfo("Created ", "Team DGM");
