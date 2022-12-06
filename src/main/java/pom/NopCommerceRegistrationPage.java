@@ -22,6 +22,8 @@ public class NopCommerceRegistrationPage {
 @FindBy (xpath="//input[@name='Password']")private WebElement RegPassword;
 @FindBy (xpath="//input[@name='ConfirmPassword']")private WebElement RegConformPassword;
 @FindBy (xpath="//button[@name='register-button']")private WebElement RegSubmmitButton;
+@FindBy (xpath="//a[text()='Continue']")private WebElement ContinueButton;
+
 
 public NopCommerceRegistrationPage (WebDriver driver) {
 PageFactory.initElements(driver, this); }
@@ -85,5 +87,8 @@ public void ClickOnSubmitButton () {
 RegSubmmitButton.click();
 }
 
+public void clickOnContinue() {
+	ContinueButton.click();
+}
 }
 

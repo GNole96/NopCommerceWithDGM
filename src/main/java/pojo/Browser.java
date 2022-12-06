@@ -1,5 +1,7 @@
 package pojo;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -28,6 +30,7 @@ public class Browser extends BaseClass{
 		}
 		driver.get("https://demo.nopcommerce.com");
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(8000));
 		return driver;
 	}
 }

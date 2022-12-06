@@ -1,59 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-03T16:19:10 IST" name="Default suite" finished-at="2022-12-03T16:21:14 IST" duration-ms="123921">
+  <suite started-at="2022-12-06T15:11:54 IST" name="Default suite" finished-at="2022-12-06T15:13:01 IST" duration-ms="66771">
     <groups>
     </groups>
-    <test started-at="2022-12-03T16:19:10 IST" name="Default test" finished-at="2022-12-03T16:21:14 IST" duration-ms="123921">
-      <class name="test.TestRegistrationPage">
-        <test-method is-config="true" signature="testConfiguration()[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:19:10 IST" name="testConfiguration" finished-at="2022-12-03T16:19:11 IST" duration-ms="645" status="PASS">
+    <test started-at="2022-12-06T15:11:54 IST" name="Default test" finished-at="2022-12-06T15:13:01 IST" duration-ms="66771">
+      <class name="test.TestLogInRegisteredUser">
+        <test-method is-config="true" signature="testConfiguration()[pri:0, instance:test.TestLogInRegisteredUser@1aa7ecca]" started-at="2022-12-06T15:11:54 IST" name="testConfiguration" finished-at="2022-12-06T15:11:55 IST" duration-ms="1096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testConfiguration -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:19:11 IST" name="openBrowser" finished-at="2022-12-03T16:19:42 IST" duration-ms="31706" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestLogInRegisteredUser@1aa7ecca]" started-at="2022-12-06T15:11:55 IST" name="openBrowser" finished-at="2022-12-06T15:12:34 IST" duration-ms="39341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="VerifyRegURL()[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:19:42 IST" name="VerifyRegURL" finished-at="2022-12-03T16:19:43 IST" duration-ms="231" status="PASS">
+        <test-method signature="logInWithRegCreds()[pri:0, instance:test.TestLogInRegisteredUser@1aa7ecca]" started-at="2022-12-06T15:12:34 IST" name="logInWithRegCreds" finished-at="2022-12-06T15:12:59 IST" duration-ms="24622" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyRegURL -->
-        <test-method is-config="true" signature="listenersClass(org.testng.ITestResult)[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:19:43 IST" name="listenersClass" finished-at="2022-12-03T16:19:43 IST" duration-ms="17" status="PASS">
+        </test-method> <!-- logInWithRegCreds -->
+        <test-method is-config="true" signature="listenersClass(org.testng.ITestResult)[pri:0, instance:test.TestLogInRegisteredUser@1aa7ecca]" started-at="2022-12-06T15:12:59 IST" name="listenersClass" finished-at="2022-12-06T15:12:59 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyRegURL status=SUCCESS method=TestRegistrationPage.VerifyRegURL()[pri:0, instance:test.TestRegistrationPage@1aa7ecca] output={null}]]]>
+                <![CDATA[[TestResult name=logInWithRegCreds status=SUCCESS method=TestLogInRegisteredUser.logInWithRegCreds()[pri:0, instance:test.TestLogInRegisteredUser@1aa7ecca] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listenersClass -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:19:43 IST" name="openBrowser" finished-at="2022-12-03T16:20:48 IST" duration-ms="65799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyRegestrTab()[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:20:48 IST" name="verifyRegestrTab" finished-at="2022-12-03T16:20:56 IST" duration-ms="7260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegestrTab -->
-        <test-method is-config="true" signature="listenersClass(org.testng.ITestResult)[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:20:56 IST" name="listenersClass" finished-at="2022-12-03T16:20:57 IST" duration-ms="280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyRegestrTab status=SUCCESS method=TestRegistrationPage.verifyRegestrTab()[pri:0, instance:test.TestRegistrationPage@1aa7ecca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- listenersClass -->
-        <test-method is-config="true" signature="clearData()[pri:0, instance:test.TestRegistrationPage@1aa7ecca]" started-at="2022-12-03T16:20:57 IST" name="clearData" finished-at="2022-12-03T16:21:14 IST" duration-ms="16889" status="PASS">
+        <test-method is-config="true" signature="clearData()[pri:0, instance:test.TestLogInRegisteredUser@1aa7ecca]" started-at="2022-12-06T15:12:59 IST" name="clearData" finished-at="2022-12-06T15:13:01 IST" duration-ms="1465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearData -->
-      </class> <!-- test.TestRegistrationPage -->
+      </class> <!-- test.TestLogInRegisteredUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

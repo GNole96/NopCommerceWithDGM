@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TestRegistrationPage">
+      <class name="test.TestLogInRegisteredUser">
         <methods>
           <include name="clearData"/>
-          <include name="VerifyRegURL"/>
-          <include name="listenersClass"/>
           <include name="openBrowser"/>
+          <include name="listenersClass"/>
+          <include name="logInWithRegCreds"/>
           <include name="testConfiguration"/>
         </methods>
-      </class> <!-- test.TestRegistrationPage -->
+      </class> <!-- test.TestLogInRegisteredUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
