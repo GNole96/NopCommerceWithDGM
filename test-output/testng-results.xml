@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -24,12 +25,40 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=VerifyRegURL status=SUCCESS method=TestRegistrationPage.VerifyRegURL()[pri:1, instance:test.TestRegistrationPage@4659191b] output={null}]]]>
+=======
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-10T15:50:04 IST" name="Default suite" finished-at="2022-12-10T15:52:54 IST" duration-ms="170434">
+    <groups>
+    </groups>
+    <test started-at="2022-12-10T15:50:04 IST" name="Default test" finished-at="2022-12-10T15:52:54 IST" duration-ms="170434">
+      <class name="test.TestLogInRegisteredUser">
+        <test-method is-config="true" signature="testConfiguration()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:50:04 IST" name="testConfiguration" finished-at="2022-12-10T15:50:04 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfiguration -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:50:04 IST" name="openBrowser" finished-at="2022-12-10T15:50:41 IST" duration-ms="36924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logInWithRegCredGaurav()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:50:41 IST" name="logInWithRegCredGaurav" finished-at="2022-12-10T15:51:08 IST" duration-ms="26688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithRegCredGaurav -->
+        <test-method is-config="true" signature="listenersClass(org.testng.ITestResult)[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:51:08 IST" name="listenersClass" finished-at="2022-12-10T15:51:08 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithRegCredGaurav status=SUCCESS method=TestLogInRegisteredUser.logInWithRegCredGaurav()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af] output={null}]]]>
+>>>>>>> f978ebf098ae18d4e6c9234e170ab5e087edb066
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listenersClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestRegistrationPage@4659191b]" started-at="2022-12-10T15:00:31 IST" name="openBrowser" finished-at="2022-12-10T15:00:38 IST" duration-ms="6739" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -43,12 +72,28 @@
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=verifyRegestrTab status=SUCCESS method=TestRegistrationPage.verifyRegestrTab()[pri:2, instance:test.TestRegistrationPage@4659191b] output={null}]]]>
+=======
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:51:08 IST" name="openBrowser" finished-at="2022-12-10T15:51:41 IST" duration-ms="32722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logInWithRegDeepak()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:51:41 IST" name="logInWithRegDeepak" finished-at="2022-12-10T15:51:49 IST" duration-ms="8647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithRegDeepak -->
+        <test-method is-config="true" signature="listenersClass(org.testng.ITestResult)[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:51:49 IST" name="listenersClass" finished-at="2022-12-10T15:51:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithRegDeepak status=SUCCESS method=TestLogInRegisteredUser.logInWithRegDeepak()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af] output={null}]]]>
+>>>>>>> f978ebf098ae18d4e6c9234e170ab5e087edb066
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listenersClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestRegistrationPage@4659191b]" started-at="2022-12-10T15:00:41 IST" name="openBrowser" finished-at="2022-12-10T15:00:47 IST" duration-ms="5799" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -105,12 +150,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             <param index="0">
               <value>
                 <![CDATA[[TestResult name=registerNewFemaleUser status=FAILURE method=TestRegistrationPage.registerNewFemaleUser()[pri:3, instance:test.TestRegistrationPage@4659191b] output={null}]]]>
+=======
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:51:49 IST" name="openBrowser" finished-at="2022-12-10T15:52:44 IST" duration-ms="55207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="logInWithRegMadhu()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:52:44 IST" name="logInWithRegMadhu" finished-at="2022-12-10T15:52:51 IST" duration-ms="6562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithRegMadhu -->
+        <test-method is-config="true" signature="listenersClass(org.testng.ITestResult)[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:52:51 IST" name="listenersClass" finished-at="2022-12-10T15:52:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithRegMadhu status=SUCCESS method=TestLogInRegisteredUser.logInWithRegMadhu()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af] output={null}]]]>
+>>>>>>> f978ebf098ae18d4e6c9234e170ab5e087edb066
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listenersClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestRegistrationPage@4659191b]" started-at="2022-12-10T15:00:49 IST" name="openBrowser" finished-at="2022-12-10T15:00:56 IST" duration-ms="7481" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -236,6 +297,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- listenersClass -->
         <test-method is-config="true" signature="clearData()[pri:0, instance:test.TestRegistrationPage@4659191b]" started-at="2022-12-10T15:01:36 IST" name="clearData" finished-at="2022-12-10T15:01:37 IST" duration-ms="870" status="PASS">
+=======
+        <test-method is-config="true" signature="clearData()[pri:0, instance:test.TestLogInRegisteredUser@5876a9af]" started-at="2022-12-10T15:52:51 IST" name="clearData" finished-at="2022-12-10T15:52:54 IST" duration-ms="3004" status="PASS">
+>>>>>>> f978ebf098ae18d4e6c9234e170ab5e087edb066
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearData -->

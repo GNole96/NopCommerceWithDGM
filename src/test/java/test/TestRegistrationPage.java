@@ -39,7 +39,7 @@ public void openBrowser()
 	driver = Browser.openBrowser("Chrome");
 }
 
-@Test (priority = 1)
+@Test (enabled = false)
 public void VerifyRegURL()
 {
 	test = reports.createTest("VerifyRegURL");
@@ -48,7 +48,7 @@ public void VerifyRegURL()
 Assert.assertEquals(Title, "nopCommerce demo store");
 }
 
-@Test (priority = 2)
+@Test (enabled = false)
 public void verifyRegestrTab() throws EncryptedDocumentException, IOException{
 	test = reports.createTest("verifyRegestrFunction");
 	
