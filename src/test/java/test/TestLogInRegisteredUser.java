@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -25,15 +26,17 @@ public class TestLogInRegisteredUser extends BaseClass {
 	ExtentReports reports;
 	ExtentTest test;
 	
+	@Parameters({"ReportName"})
 	@BeforeTest
-	public void testConfiguration() {
-		reports = ReportClass.addReports("LogInRegisteredUserTest");
+	public void testConfiguration(String a) {
+		reports = ReportClass.addReports(a);
 	}
-			
+		
+	@Parameters({"browserName"})
 	@BeforeMethod
-	public void openBrowser() 
+	public void openBrowser(String BrowName) 
 	{	
-		driver = Browser.openBrowser("Edge");
+		driver = Browser.openBrowser(BrowName);
 	}
 
 	@Test
