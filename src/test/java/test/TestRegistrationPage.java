@@ -39,11 +39,10 @@ public void testConfiguration(String Nm) {
 @BeforeMethod
 public void openBrowser(String BroName) 
 {	
-<<<<<<< HEAD
+
 	driver = Browser.openBrowser("Chrome");
-=======
+
 	driver = Browser.openBrowser(BroName);
->>>>>>> ba2e6017910bac6c324b82c9c75f8a55778e0f7c
 }
 
 @Test (enabled = false)

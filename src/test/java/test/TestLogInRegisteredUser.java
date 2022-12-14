@@ -36,11 +36,10 @@ public class TestLogInRegisteredUser extends BaseClass {
 	@BeforeMethod
 	public void openBrowser(String BrowName) 
 	{	
-<<<<<<< HEAD
+
 		driver = Browser.openBrowser("Chrome");
-=======
+
 		driver = Browser.openBrowser(BrowName);
->>>>>>> ba2e6017910bac6c324b82c9c75f8a55778e0f7c
 	}
 
 	@Test

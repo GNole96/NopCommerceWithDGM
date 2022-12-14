@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <parameter name="ReportName"  value="LogInRegTest01"></parameter>
-  <parameter name="browserName" value="Edge"></parameter>
-  <parameter name="BroName" value="Edge"></parameter>
+  <parameter name="browserName" value="Chrome"></parameter>
+  <parameter name="BroName" value="Chrome"></parameter>
   <parameter name="Nm" value="RegTest01"></parameter>
     <classes>
       <class name="test.TestRegistrationPage"/>
