@@ -43,6 +43,12 @@ public void openBrowser(String BroName)
 	driver = Browser.openBrowser(BroName);
 }
 
+public void openBrowser() 
+{	
+	driver = Browser.openBrowser("Chrome");
+
+}
+
 @Test (enabled = false)
 public void VerifyRegURL()
 {
