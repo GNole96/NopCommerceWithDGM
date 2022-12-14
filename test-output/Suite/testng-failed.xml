@@ -3,8 +3,8 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="ReportName" value="LogInRegTest01"/>
-    <parameter name="browserName" value="Edge"/>
-    <parameter name="BroName" value="Edge"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="BroName" value="Chrome"/>
     <parameter name="Nm" value="RegTest01"/>
     <classes>
       <class name="test.TestLogInRegisteredUser">
@@ -12,21 +12,11 @@
           <include name="clearData"/>
           <include name="openBrowser"/>
           <include name="listenersClass"/>
+          <include name="logInWithRegDeepak"/>
           <include name="logInWithRegMadhu"/>
           <include name="testConfiguration"/>
         </methods>
       </class> <!-- test.TestLogInRegisteredUser -->
-      <class name="test.TestRegistrationPage">
-        <methods>
-          <include name="clearData"/>
-          <include name="registerNewMaleUser"/>
-          <include name="registerNewFemaleUser"/>
-          <include name="registerNewUser"/>
-          <include name="listenersClass"/>
-          <include name="openBrowser"/>
-          <include name="testConfiguration"/>
-        </methods>
-      </class> <!-- test.TestRegistrationPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

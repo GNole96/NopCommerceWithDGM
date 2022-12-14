@@ -6,11 +6,19 @@
       <class name="test.TestRegistrationPage">
         <methods>
           <include name="clearData"/>
+<<<<<<< HEAD
           <include name="registerNewMaleUser"/>
           <include name="registerNewFemaleUser"/>
           <include name="registerNewUser"/>
           <include name="listenersClass"/>
           <include name="openBrowser"/>
+=======
+          <include name="openBrowser"/>
+          <include name="logInWithRegCredGaurav"/>
+          <include name="listenersClass"/>
+          <include name="logInWithRegDeepak"/>
+          <include name="logInWithRegMadhu"/>
+>>>>>>> 4bed23996abf94f8d342dc0e2734245f6c890463
           <include name="testConfiguration"/>
         </methods>
       </class> <!-- test.TestRegistrationPage -->

@@ -36,6 +36,9 @@ public class TestLogInRegisteredUser extends BaseClass {
 	@BeforeMethod
 	public void openBrowser(String BrowName) 
 	{	
+
+		driver = Browser.openBrowser("Chrome");
+
 		driver = Browser.openBrowser(BrowName);
 	}
 
