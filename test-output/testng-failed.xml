@@ -7,8 +7,10 @@
         <methods>
           <include name="clearData"/>
           <include name="openBrowser"/>
+          <include name="logInWithRegCredGaurav"/>
           <include name="listenersClass"/>
-          <include name="logInWithRegCreds"/>
+          <include name="logInWithRegDeepak"/>
+          <include name="logInWithRegMadhu"/>
           <include name="testConfiguration"/>
         </methods>
       </class> <!-- test.TestLogInRegisteredUser -->

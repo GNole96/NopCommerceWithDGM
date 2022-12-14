@@ -36,7 +36,7 @@ public void testConfiguration() {
 @BeforeMethod
 public void openBrowser() 
 {	
-	driver = Browser.openBrowser("Edge");
+	driver = Browser.openBrowser("Chrome");
 }
 
 @Test (enabled = false)

@@ -33,7 +33,7 @@ public class TestLogInRegisteredUser extends BaseClass {
 	@BeforeMethod
 	public void openBrowser() 
 	{	
-		driver = Browser.openBrowser("Edge");
+		driver = Browser.openBrowser("Chrome");
 	}
 
 	@Test
