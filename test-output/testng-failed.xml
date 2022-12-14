@@ -3,19 +3,31 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="ReportName" value="LogInRegTest01"/>
-    <parameter name="browserName" value="Edge"/>
-    <parameter name="BroName" value="Edge"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="BroName" value="Chrome"/>
     <parameter name="Nm" value="RegTest01"/>
     <classes>
-      <class name="test.TestLogInRegisteredUser">
+      <class name="test.TestRegistrationPage">
         <methods>
           <include name="clearData"/>
-          <include name="openBrowser"/>
+          <include name="registerNewMaleUser"/>
+          <include name="registerNewFemaleUser"/>
+          <include name="registerNewUser"/>
           <include name="listenersClass"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+          <include name="openBrowser"/>
+          <include name="testConfiguration"/>
+        </methods>
+=======
+=======
+          <include name="logInWithRegDeepak"/>
+>>>>>>> 4bed23996abf94f8d342dc0e2734245f6c890463
           <include name="logInWithRegMadhu"/>
           <include name="testConfiguration"/>
         </methods>
       </class> <!-- test.TestLogInRegisteredUser -->
+<<<<<<< HEAD
       <class name="test.TestRegistrationPage">
         <methods>
           <include name="clearData"/>
@@ -26,7 +38,10 @@
           <include name="openBrowser"/>
           <include name="testConfiguration"/>
         </methods>
+>>>>>>> ba2e6017910bac6c324b82c9c75f8a55778e0f7c
       </class> <!-- test.TestRegistrationPage -->
+=======
+>>>>>>> 4bed23996abf94f8d342dc0e2734245f6c890463
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
