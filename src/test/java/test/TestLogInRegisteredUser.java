@@ -35,9 +35,7 @@ public class TestLogInRegisteredUser extends BaseClass {
 	@Parameters({"browserName"})
 	@BeforeMethod
 	public void openBrowser(String BrowName) 
-	{	
-
-		driver = Browser.openBrowser("Chrome");
+	{
 
 		driver = Browser.openBrowser(BrowName);
 	}
@@ -96,6 +94,7 @@ public void listenersClass(ITestResult result) {
 	{
 		test.log(Status.SKIP, result.getName());
 	}
+	driver.close();
 }
 
 @AfterTest

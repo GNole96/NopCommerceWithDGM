@@ -38,9 +38,7 @@ public void testConfiguration(String Nm) {
 @Parameters({"BroName"})
 @BeforeMethod
 public void openBrowser(String BroName) 
-{	
-
-	driver = Browser.openBrowser("Chrome");
+{
 
 	driver = Browser.openBrowser(BroName);
 }
@@ -158,6 +156,7 @@ public void listenersClass(ITestResult result) {
 	{
 		test.log(Status.SKIP, result.getName());
 	}
+	driver.close();
 }
 
 @AfterTest
