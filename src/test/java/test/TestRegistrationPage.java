@@ -10,6 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -28,15 +29,21 @@ public class TestRegistrationPage extends BaseClass {
 	ExtentReports  reports;
 	ExtentTest test;
 	
+	@Parameters({"Nm"})
 @BeforeTest
-public void testConfiguration() {
-	reports = ReportClass.addReports("RegistrationTest");
+public void testConfiguration(String Nm) {
+	reports = ReportClass.addReports(Nm);
 }
 		
+@Parameters({"BroName"})
 @BeforeMethod
-public void openBrowser() 
+public void openBrowser(String BroName) 
 {	
+<<<<<<< HEAD
 	driver = Browser.openBrowser("Chrome");
+=======
+	driver = Browser.openBrowser(BroName);
+>>>>>>> ba2e6017910bac6c324b82c9c75f8a55778e0f7c
 }
 
 @Test (enabled = false)

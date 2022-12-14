@@ -2,11 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name="ReportName"  value="LogInRegTest01"></parameter>
+  <parameter name="browserName" value="Edge"></parameter>
+  <parameter name="BroName" value="Edge"></parameter>
+  <parameter name="Nm" value="RegTest01"></parameter>
     <classes>
-      <class name="test.TestComputerMenu"/>
-      <class name="test.TestLogInRegisteredUser"/>
-      <class name="test.TestHomePage"/>
       <class name="test.TestRegistrationPage"/>
+      <class name="test.TestLogInRegisteredUser"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
